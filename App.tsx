@@ -6,6 +6,7 @@ import ElevatedCards from './components/ElevatedCards';
 import FlatCards from './components/FlatCards';
 import Scroolable from './components/Scroolable';
 import ActionCard from './components/ActionCard';
+import ContactList from './components/ContactList';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <ElevatedCards />
         <Scroolable />
         <ActionCard />
+        <ContactList />
       </ScrollView>
     </SafeAreaView>
   );
