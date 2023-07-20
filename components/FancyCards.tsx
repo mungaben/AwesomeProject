@@ -14,9 +14,12 @@ const FancyCards = () => {
         />
 
         <View style={styles.cardBody}>
-          <Text style={styles.heading}>Title</Text>
-          <Text>Subtitle</Text>
-          <Text> data</Text>
+          <Text style={styles.heading}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+            ullam.{' '}
+          </Text>
+          <Text> Lorem, ipsum.</Text>
+          <Text> Lorem ipsum dolor sit amet consectetur.</Text>
         </View>
       </View>
     </View>
@@ -37,6 +40,7 @@ const styles = StyleSheet.create({
     height: 200,
     borderRadius: 10,
     marginHorizontal: 18,
+    overflow: 'scroll',
   },
   CardElevated: {
     flexDirection: 'row',
@@ -52,14 +56,15 @@ const styles = StyleSheet.create({
   cardBody: {
     flexDirection: 'column',
     flexGrow: 1,
-    backgroundColor: 'gray',
+  
     textShadowColor: 'black',
     padding: 10,
     shadowOffset: {width: 5, height: 5},
     shadowOpacity: 0.5,
     shadowRadius: 10,
     shadowColor: 'black',
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'flex-start',
+    marginTop: 10,
+    width: 200,
   },
 });
