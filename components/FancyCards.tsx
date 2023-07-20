@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   cardBody: {
     flexDirection: 'column',
     flexGrow: 1,
-  
+
     textShadowColor: 'black',
     padding: 10,
     shadowOffset: {width: 5, height: 5},
@@ -64,7 +64,6 @@ const styles = StyleSheet.create({
     shadowRadius: 10,
     shadowColor: 'black',
     justifyContent: 'flex-start',
-    marginTop: 10,
     width: 200,
   },
 });
