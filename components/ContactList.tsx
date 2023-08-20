@@ -207,7 +207,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   containerScroll: {
-    flex: 1,
+    flex: 2,
+    flexDirection: 'row',
   },
   personCard: {
     backgroundColor: faker.color.rgb({prefix: '#', casing: 'lower'}),
@@ -227,7 +228,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   name: {
-    fontSize: 18,
+    fontSize: 23,
     fontWeight: 'bold',
     marginBottom: 4,
     color: faker.color.rgb({prefix: '#', casing: 'lower'}),
